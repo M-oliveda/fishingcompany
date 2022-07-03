@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/Images/Icons/Company-logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Fishing Company | Passion for nature</title>
+  </head>
+  <body>
+    <header class="body__header">
+      <img
+        src="./assets/Images/Icons/Company-logo.svg"
+        alt="Company Logo"
+        class="company__logo"
+      />
+      <nav class="header__nav">
+        <a href="#aboutUs-section">Our History</a>
+        <a href="#ourEquipment-section">Equipments</a>
+        <a href="#contactUs-section">Contact</a>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Explore, discover and get excited</h1>
+        <p class="hero__subtitle">
+          Inside our beautiful large rivers and lakes, you will have emotions
+          you never had before.
+        </p>
+        <p class="hero__common-text">Come and visit Argentina Fly Fishing!</p>
+        <a class="button" href="#contactUs-section" id="hero-button">
+          Contact Us
+        </a>
+      </div>
+      <div class="hero__image">
+        <img src="./assets/Images/Hero__background.jpg" alt="A fishing boat." />
+      </div>
+    </div>
+    <main>
+      <section id="aboutUs-section">
+        <h2 class="title">
+          We are like you, passionate about nature and outdoor activities.
+        </h2>
+        <div class="images">
+          <div class="images__image-container">
+            <img
+              src="./assets/Images/images-1-small-devices.jpg"
+              alt="The first picture of the collection discribes a man fishing."
+            />
+          </div>
+          <div class="images__image-container">
+            <img
+              src="./assets/Images/images-2-small-devices.jpg"
+              alt="The second picture of the collection discrabes a group of men fishing."
+            />
+          </div>
+          <div class="images__image-container">
+            <img
+              src="./assets/Images/images-3-small-devices.jpg"
+              alt="The third picture of the collection describes two men fishing."
+            />
+          </div>
+          <div class="images__image-container">
+            <img
+              src="./assets/Images/images-4-small-devices.jpg"
+              alt="The fourth picture of the collection describes a men fishing."
+            />
+          </div>
+          <div class="images__image-container">
+            <img
+              src="./assets/Images/images-5-small-devices.jpg"
+              alt="The fourth picture of the collection describes a men viewing a lake with montains."
+            />
+          </div>
+        </div>
+        <div class="paragraph-container">
+          <img
+            class="paragraph__image"
+            src="./assets/Images/FishingBoat.jpg"
+            alt="A fishing boat."
+          />
+          <div class="paragraphs">
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              faucibus mattis egestas. Morbi tellus nisi, consectetur eget augue
+              vel, consectetur aliquet nisi. Duis nulla ligula, porta at ornare
+              pellentesque, malesuada et elit. Maecenas diam turpis, finibus a
+              pretium ac, iaculis vulputate ipsum. Cras ut vehicula mauris.
+              Nullam semper ante ex, nec gravida lectus rhoncus ut. Phasellus
+              non leo tellus. Ut tincidunt, dui vel mattis feugiat, ipsum ipsum
+              lobortis sem, aliquam tristique libero leo nec est. Morbi
+              porttitor eros sit amet euismod tincidunt. Etiam dictum erat nec
+              mauris euismod sagittis. Suspendisse eu porttitor sem.
+            </p>
+            <p class="paragraph">
+              Curabitur sapien nulla, vestibulum blandit maximus ut, efficitur
+              id lorem. Etiam nec placerat neque. Mauris arcu metus, placerat et
+              enim in, rhoncus tempor turpis. Donec non enim a nisl elementum
+              faucibus. Nulla sagittis sapien id arcu pellentesque, vel
+              tristique erat luctus. Vivamus et libero risus. In facilisis
+              mauris vel ligula vulputate, in consectetur est tristique.
+              Vestibulum sit amet egestas velit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="ourEquipment-section">
+        <h2 class="title">Our Equipment</h2>
+        <div class="services-container">
+          <div class="service__box">
+            <img
+              src="./assets/Images/FishingBoat.jpg"
+              alt="Fishing boat."
+              class="box__image"
+            />
+            <p class="box__title">Modern Outboard</p>
+            <p class="box__text">
+              We have new and modern outboard for short, medium and long fishing
+              distances.
+            </p>
+          </div>
+          <div class="service__box">
+            <img
+              src="./assets/Images/FishEquipment.jpg"
+              alt="Fishing equipment."
+              class="box__image"
+            />
+            <p class="box__title">Services Included</p>
+            <p class="box__text">
+              Our services include all the required equipment, so you have
+              nothing to worry about.
+            </p>
+          </div>
+          <div class="service__box">
+            <img
+              src="./assets/Images/AsadoImage.jpg"
+              alt="Asado image."
+              class="box__image"
+            />
+            <p class="box__title">Foods and Drinks</p>
+            <p class="box__text">
+              Our services include popular foods such as the traditional
+              Argentinian Asado or empanadas.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contactUs-section">
+        <h2 class="title">Contact us and start dreaming!</h2>
+        <form id="contact-form" autocomplete="off">
+          <div class="form__field">
+            <label for="fullname-input" class="field__label">
+              Full name:
+            </label>
+            <input
+              type="text"
+              name="fullname"
+              id="fullname-input"
+              class="field__input"
+              placeholder="firstname lastname"
+              pattern="^[a-zA-Z]{3,}\s[a-zA-z]{3,}\s?$"
+              required
+            />
+            <p class="field__text"></p>
+          </div>
+          <div class="form__field">
+            <label for="telephone-input" class="field__label">Telephone:</label>
+            <input
+              type="tel"
+              name="telephone"
+              id="telephone-input"
+              class="field__input"
+              placeholder="+541233548"
+              pattern="^\+?[0-9]{6,}$"
+              required
+            />
+            <p class="field__text"></p>
+          </div>
+          <div class="form__field">
+            <label for="email-input" class="field__label">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email-input"
+              class="field__input"
+              placeholder="example@example.com"
+              required
+            />
+            <p class="field__text"></p>
+          </div>
+          <div class="form__field">
+            <button type="submit" class="button">Contact</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="body__footer">
+      <small class="footer__copyright">
+        Design by Mauricio Oliveda. All Rights reserve.
+      </small>
+      <small class="footer__copyright">
+        Icons by svgrepo and images by unplash.
+      </small>
+      <div class="line-separator"></div>
+      <p class="footer__disclamer">
+        This is a development project. None of this information can be treated
+        as a real business, and it is not recommended you should put your
+        personal information on this site.
+      </p>
+    </footer>
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>
